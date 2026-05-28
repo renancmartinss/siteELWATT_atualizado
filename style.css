@@ -1,0 +1,7 @@
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #060C1A; color: #EEF4FF; }
+h1,h2,h3,h4 { font-family: 'Space Grotesk', system-ui, sans-serif; }
+.ping { animation: ping 1.5s cubic-bezier(0,0,.2,1) infinite; }
+@keyframes ping { 75%,100% { transform: scale(2); opacity: 0; } }
+.hero-glow { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 70% 55% at 60% -5%, rgba(255,107,0,0.09) 0%, transparent 65%); }
+.cta-glow { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(255,107,0,0.06) 0%, transparent 70%); }
